@@ -88,8 +88,8 @@
 
       <!-- hero section -->
       <div class="mt-12">
-        <div class="carousel bg-banner-color rounded-lg w-full h-[550px]">
-          <div id="slide1" class="carousel-item relative w-full p-28">
+        <div class="carousel bg-banner-color rounded-lg w-full md:h-[550px]">
+          <div id="slide1" class="carousel-item relative w-full md:flex flex-col  p-28">
             <!-- text-content -->
             <div class="space-y-5">
               <h2 class="text-5xl md:text-6xl font-bold">
@@ -113,7 +113,7 @@
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div>
-          <div id="slide2" class="carousel-item relative w-full p-28">
+          <div id="slide2" class="carousel-item relative w-full md:flex flex-col p-28">
             <!-- text-content -->
             <div class="space-y-5">
               <h2 class="text-5xl md:text-6xl font-bold">
@@ -137,7 +137,7 @@
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
           </div>
-          <div id="slide3" class="carousel-item relative w-full p-28">
+          <div id="slide3" class="carousel-item relative w-full md:flex flex-col p-28">
             <!-- text-content -->
             <div class="space-y-5">
               <h2 class="text-5xl md:text-6xl font-bold">
@@ -161,7 +161,7 @@
               <a href="#slide4" class="btn btn-circle">❯</a>
             </div>
           </div>
-          <div id="slide4" class="carousel-item relative w-full p-28">
+          <div id="slide4" class="carousel-item relative w-full md:flex flex-col p-28">
             <!-- text-content -->
             <div class="space-y-5">
               <h2 class="text-5xl md:text-6xl font-bold">
@@ -498,7 +498,7 @@
                 <img src="images/others/faq.png" class="max-w-md rounded-lg" />
               </div>
               <div
-                class="collapse collapse-arrow bg-base-100 border border-base-300  flex-1"
+                class="collapse collapse-arrow bg-base-100 border border-base-300 flex-1"
               >
                 <input type="radio" name="my-accordion-2" checked="checked" />
                 <div class="collapse-title font-semibold">
@@ -539,6 +539,39 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer></footer>
+    <footer
+      class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10"
+    >
+      <aside>
+         
+            <ul class="flex justify-center gap-8">
+              <li><a href="#">Download Now</a></li>
+              <li><a href="#">License</a></li>
+            </ul>
+         
+           <ul class="flex justify-center gap-6">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Features</a></li>
+               <li><a href="#">Pricing</a></li>
+               <li><a href="#">Carrers</a></li>
+               <li><a href="#">Help</a></li>
+               <li><a href="#">Privacy Policy</a></li>
+           </ul>
+        <p>
+          &copy;2025 bike. All rights reserved
+        </p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Get the App</h6>
+        <div class="grid grid-cols-1 gap-4">
+          <a>
+            <img class="w-24" src="images/others/ios.png" alt="">
+          </a>
+          <a>
+            <img class="w-24" src="images/others/android.png" alt="">
+          </a>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
